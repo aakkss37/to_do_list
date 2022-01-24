@@ -53,6 +53,6 @@ app.post('/', (req, resp) => {
 
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('$#$#$#$#$#$# SERVER IS RUNNIN ON PROT 3000 #$#$#$#$#$#$')
 })
